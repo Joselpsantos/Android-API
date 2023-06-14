@@ -33,6 +33,13 @@ android {
 }
 
 dependencies {
+    def retrofit_version = "2.9.0"
+    implementation "com.squareup.retrofit2:retrofit:${retrofit_version}"
+
+    def gsonVersion = "2.10.1"
+    implementation "com.google.code.gson:gson:${gsonVersion}"
+
+    implementation "com.squareup.retrofit2:converter-gson:${retrofit_version}"
 
     implementation 'androidx.core:core-ktx:1.8.0'
     implementation 'androidx.appcompat:appcompat:1.6.1'
