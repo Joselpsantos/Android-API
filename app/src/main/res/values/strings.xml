@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">Android API</string>
+    <string name="click_to_add_new_note">click to add new note</string>
 </resources>
